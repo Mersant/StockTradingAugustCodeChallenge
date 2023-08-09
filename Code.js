@@ -1,4 +1,4 @@
-// Record time was 50ms (1) or top 99.97%, Avg. across 10 runs was ~66ms or top 95.48%
+// Record time was 50ms (1) or beats 99.97%, Avg. across 10 runs was ~66ms or beats 95.48%
 // (1) https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1016997668/
 var maxProfit = function(prices) {
     var highestProfit = 0,
