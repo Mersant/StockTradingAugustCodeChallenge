@@ -1,5 +1,5 @@
-// Record was 50ms (1) or top 99.97%, Avg. across 10 runs was 69.2 or top ~93%
-// (1) https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1016993536/
+// Record was 50ms (1) or top 99.90%, Avg. across 10 runs was 69.2 or top ~93%
+// (1) https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1016993536/ (Comments on this run are outdated)
 var maxProfit = function(prices) {
     var highestProfit = Math.abs(prices[1] > prices[0]), // Force profit to unsigned int so that 0 will be returned (no trades) if highest profit is negative
         stockBuyPrice = prices[0];
